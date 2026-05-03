@@ -1,0 +1,11 @@
+Model,Category,AUROC_mean,AUROC_std,F1_mean,F1_std
+Majority,Baseline,0.5,0,0.465,0
+LR PRS,Linear,0.648,0.077,0.519,0.038
+LR PRS+Path,Linear,0.606,0.048,0.494,0.025
+LR Full,Linear,0.592,0.043,0.49,0.045
+XGB PRS,Non-linear,0.627,0.058,0.462,0
+XGB SNP100,Non-linear,0.674,0.012,0.462,0
+XGB Full,Non-linear,0.677,0.05,0.478,0.032
+GCN SNP+PRS  k=10,GNN,0.547,0.048,0.428,0.065
+GAT PRS k=10,GNN,0.595,0.087,0.41,0.147
+SAGE PRS k=20,GNN,0.594,0.066,0.462,0
